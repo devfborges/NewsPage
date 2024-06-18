@@ -45,3 +45,7 @@ main .container {
 .custom-image {
   max-width: 100%;
 }
+
+.custom-space {
+  margin-top: 8em;
+}
