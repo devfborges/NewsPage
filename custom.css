@@ -12,8 +12,14 @@ body {
   --bs-secondary-rgb: 253, 138, 36;
 }
 
-.container {
-  width: 50%;
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 50%;
+  }
+
+  main .container {
+    max-width: 45%;
+  }
 }
 
 .container h1 {
@@ -36,10 +42,6 @@ body {
 
 .custom-color {
   color: #111;
-}
-
-main .container {
-  max-width: 45%;
 }
 
 .custom-image {
